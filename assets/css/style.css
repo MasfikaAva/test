@@ -1,0 +1,86 @@
+  
+body{
+    font-family:'Georgia';
+    font-size: 12px;
+    background:#fff;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 990px;
+}
+.top_area{
+    padding: 13px 0px;
+}
+.top_area span{
+    color: #696969;
+}
+.search_form{
+    width: 210px;
+    float: right;
+    position: relative;
+}
+.search_form input{
+    height: 25px;
+    border-radius: 13px;
+    background:#e1e1e1;
+    border: none;
+    width: 210px;
+    padding-left: 10px;
+    
+}
+.search_form button{
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    color: #d2d2d2;
+    text-align: center;
+    line-height: 20px;
+    padding: 0px;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #7c9c37;
+}
+
+
+.main li a {
+    border-right:1px solid #828282;
+    display: block;
+    color: #fff;
+    padding: 0px 30px;
+}
+.main li a span{
+    color: #828282;
+    display: block;
+}
+.main li:last-child a{
+    border-right: 0px;
+    padding-right: 0px;
+    
+}
+.main li a:hover{
+    color: #7c9c37;
+    text-decoration: none;
+}
+.footer{
+    color: #7c9c37;
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.search{
+  color:gainsboro;
+  border-radius: 10px;
+  border: none;
+  opacity: 1px;
+  text-align: center;
+  
+}
